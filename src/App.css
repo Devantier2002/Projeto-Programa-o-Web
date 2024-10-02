@@ -1,0 +1,47 @@
+#root {
+  font-family: Helvetica, sans-serif;
+}
+
+.text__left{
+  text-align: left;
+  align-items: left;
+  display: flex;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  gap: 3rem;
+}
+
+.margin{
+  margin: 1rem 1rem;
+}
+
+.btn{
+  margin-left: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 6px;
+  border: 0;
+  color: #fff;
+  background-color: rgb(55, 128, 97);
+  font-size: 16px;
+}
+
+input[type=text], input[type=number], select {
+  padding: 8px 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.cor_verde{
+  color: green;
+}
+
+.cor_vermelha{
+  color: red;
+}
